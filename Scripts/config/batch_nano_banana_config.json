@@ -1,0 +1,28 @@
+{
+    "template_path": "templates/I2V templates.pptx",
+    "comparison_template_path": "templates/I2V Comparison Template.pptx",
+    "testbed": "http://192.168.4.3:8000/google_flash_image/",
+    "output": {
+        "directory": "C:\\intense_warm"
+    },
+    "schedule": {
+        "start_time": "",
+        "comment": "Time format: HH:MM (24-hour format). Leave empty to start immediately"
+    },
+    "tasks": [
+        {
+            "folder": "C:\\intense_warm",
+            "prompt": "Keep the person’s pose, facial structure, expression, skin tone, hairstyle, and makeup exactly the same, and keep the background identical.\n\nShe wears a red outfit that fuses stage sensuality with street-inspired energy, designed to glow with vivid movement and elegant contrast. The overall color tone is a medium-bright warm vermilion red, softly luminous under light with a refined semi-gloss finish. The top is an asymmetrical halter-style silk corset, crafted from dense mulberry silk satin (approximately 240–260 gsm) with a smooth, fluid surface and a natural pearl-like sheen. The fabric drapes with delicate flexibility, balancing softness and structure. The design cuts diagonally across the upper body—her right shoulder and collarbone remain bare, while the left side curves upward to wrap over the bust, forming a sharp, modern neckline that accentuates the shoulders and chest contour.\n\nThe bust and waist are shaped with internal darts and boning lines, sculpting a natural hourglass form. The silk surface catches light in gentle gradients, producing subtle folds that move with her body. The hemline curves slightly, shorter in front and longer in the back, ending around three to four centimeters below the natural waist, elongating the torso and emphasizing her proportions. From each side seam, two slim satin ribbons of matching red fall freely, about twenty-five centimeters in length, tied loosely so that they sway softly with motion, adding a sense of layered rhythm under stage lighting.\n\nThe bottom half features a high-waisted layered tulle mini skirt in the same cherry-red tone, constructed from sheer, airy mesh that brings contrast to the silk’s luster. The skirt consists of over ten fine, stiff tulle layers, each approximately four to five centimeters high, stacked closely to create fullness without heaviness. Its waistband is finished in the same silk as the top, ensuring material consistency. The skirt flares lightly around the upper thighs, forming a weightless silhouette with hints of transparency and bounce.\n\nAround her right wrist, a red satin ribbon wraps twice and ties into a neat bow, its tails falling naturally to maintain a sense of balance with the side ribbons of the corset. Her leg warmers and platform Mary Janes remain in the same color family — bright, vivid true red. The ribbed knit leg warmers are a half-tone deeper for contrast, while the shoes, made of patent leather, reflect stage light with crisp red highlights and must not drift into burgundy or orange tones.\n\nColor management remains precise: the outfit embodies a Cherry Red / Bright True Red harmony — highlights carry a hint of coral-red glow, midtones center on pure cherry red, and shadows deepen slightly into a magenta-toned red without crossing into crimson. Recommended tone range for consistent output: midtones between #D81E2C and #E01E30, highlights around #F36A72, shadows near #A01423, and tulle layering near #B31227. The final impression must appear luminous, youthful, and distinctly idol-stage red, combining the sensual flow of silk with the spirited vibrancy of performance wear.\n",
+            "reference_folder": "",
+            "use_comparison_template": false,
+            "design_link": "https://docs.google.com/presentation/d/14rZvaHyWNEmeGfRWAbLDqCE-de1Ckp1t4IfqPonOOhg/edit?slide=id.g3801b5cf5a1_2_0#slide=id.g3801b5cf5a1_2_0",
+            "source_video_link": "https://cyberlinkcorp-my.sharepoint.com/:f:/g/personal/onedrive_qa1_cyberlink_com/EuvMvS7_eAlLn6xT9wwDEVABwQejHNI6_6BnwNlGfyb7cQ?e=OyGQE4"
+        }
+
+    ],
+    "comments": {
+        "folder_structure": "Each task folder should contain 'Source' and 'Generated_Output' subfolders",
+        "reference_folder": "Optional: Path to folder containing third set of images for 3-way comparison",
+        "template_usage": "use_comparison_template: true uses comparison_template_path (3 placeholders), false uses template_path (2 placeholders)"
+    }
+}

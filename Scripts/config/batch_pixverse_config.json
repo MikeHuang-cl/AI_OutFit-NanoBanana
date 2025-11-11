@@ -1,0 +1,41 @@
+{
+    "base_folder": "../Pixverse/0922 4 Styles",
+    "output_directory": "C:\\Users\\mike_huang.CLT\\Desktop\\GAI Report",
+    "template_path": "templates/I2V templates.pptx",
+    "testbed": "http://192.168.4.3:8000/video_effect/",
+    "design_link": "https://platform.pixverse.ai/effect-list",
+    "source_video_link": "https://cyberlinkcorp-my.sharepoint.com/:f:/g/personal/onedrive_qa1_cyberlink_com/Eru_qv3eLWBLkrcmnqFVj8QB5e1FXIQXdjFYifU4nrEOfQ?e=pZvWj2",
+    "default_settings": {
+        "model": "v4.5",
+        "duration": "5s", 
+        "motion_mode": "normal",
+        "quality": "720p",
+        "style": "none"
+    },
+    "tasks": [
+        {
+            "effect": "Skull Multiverse",
+            "prompt": "",
+            "custom_effect_id": "356317200152960",
+            "negative_prompt": ""
+        },
+        {
+            "effect": "Vampire Royalty",
+            "prompt": "",
+            "custom_effect_id": "359516293494080",
+            "negative_prompt": ""
+        },
+        {
+            "effect": "Wizard Hat",
+            "prompt": "",
+            "custom_effect_id": "302325299661888",
+            "negative_prompt": ""
+        },
+        {
+            "effect": "Ninja Shadow Clone",
+            "prompt": "",
+            "custom_effect_id": "354371350649280",
+            "negative_prompt": ""
+        }
+    ]
+}
